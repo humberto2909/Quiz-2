@@ -1,0 +1,88 @@
+.divContenedorPrimario {
+    display: flex;
+    background-color: #d3e5e4;
+}
+
+.divIzquierdo {
+    width: 60%;
+    margin-left: 300px;
+    margin-right: 380px;
+    margin-top: 60px;
+}
+
+.divDerecho {
+    display: flex;
+    width: 40%;
+}
+
+.boton {
+    background-color: #7fbeb6;
+    width: 160px;
+    color: white;
+    margin-top: 5px;
+    height: 25px;
+}
+
+.casillasDeTexto {
+    width: 160px;
+    height: 23px;
+}
+
+.divContenedorSecundario {
+    background-color: #f1f2f4;
+    margin-top: -20px;
+}
+
+.divContenedorTerciario {
+    display: flex;
+    background-color: #3c3f51;
+}
+
+.divLeft {
+    width: 50%;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divRight {
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divCenter {
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+color: gray;
+}
+
+a {
+    color: #2d8a63;
+    text-decoration: none;
+    text-align: start;
+    display: flex;
+}
+
+.divContenedorGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    margin-left: 100px;
+    margin-right: 110px;
+}
+
+h2 {
+    margin-left: 100px;
+}
+
+.divCasillas {
+    background-color: white;
+    display: flex;
+}
